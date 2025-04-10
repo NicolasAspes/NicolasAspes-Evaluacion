@@ -1,0 +1,96 @@
+/* Barra de navegación fija */
+.fixed-left {
+  position: sticky;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 250px;
+  overflow-y: auto;
+  background-color: #343a40;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+nav h2 {
+  text-align: center;
+  color: white;
+  margin-bottom: 30px;
+}
+
+nav ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+nav .nav-link {
+  font-size: 18px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+nav .nav-link:hover {
+  background-color: #495057;
+}
+
+main {
+  flex-grow: 1;
+  margin-left: 60px;  
+  margin-right: 60px; 
+}
+
+section {
+  padding: 20px;
+  margin-bottom: 40px;
+  border-bottom: 2px solid #ccc;
+}
+
+section h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #343a40;
+}
+
+.galeria-img {
+  width: 100%;
+  border-radius: 8px;
+  transition: transform 0.2s ease;
+}
+
+.galeria-img:hover {
+  transform: scale(1.05);
+}
+
+.section-content .row {
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px; 
+  flex-wrap: wrap;
+}
+
+.section-content .col-md-4 {
+  flex: 1 1 30%;
+  margin-bottom: 20px;
+}
+
+.section-content {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+/* Footer */
+footer {
+  background-color: #222;
+  color: white;
+  padding: 10px;
+}
+
+footer p {
+  margin: 0;
+  text-align: center;
+}
